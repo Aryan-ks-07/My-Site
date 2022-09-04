@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+/* font-family: 'Lora', serif;    //for heading purposes */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+/* font-family: 'Ubuntu', sans-serif;  //for footer only  */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+/* font-family: 'Raleway', sans-serif;  // for content only  */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(170, 170, 170, 0.97);
+}
+
+header {
+    background-color: white;
+    color: white;
+    display: flex;
+    font-family: 'Lora', serif;
+    /* height: 50px; */
+    border-bottom: 2px solid black;
+    border-top: 1px solid black;
+    /* position: sticky;
+    top: 0px; */
+    overflow: hidden;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 29px;
+    padding: 0px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+nav ul {
+    /* height: 50px; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 15px;
+    font-size: 17px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+    color: rgba(153, 142, 250, 0.911);
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search1 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin: 0px 2vw;
+}
+
+#searchbar {
+    width: 38vw;
+    min-width: 230px;
+    height: 32px;
+    border: 3px solid black;
+    border-radius: 6px;
+    padding: 12px 15px;
+    margin: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lora', serif;
+    background-color: #fff;
+}
+
+.account {
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 3vw;
+}
+
+.account a {
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+}
+
+.account a:hover {
+    font-weight: bolder;
+    color: rgba(153, 142, 250, 0.911);
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    overflow: hidden;
+}
+
+.card {
+    max-width: 91vw;
+    margin: 37px auto;
+    font-family: 'Lora', serif;
+    /* border: 1px solid #848282; */
+    padding: 18px 22px;
+    background-color: #dbdbdb;
+}
+
+.cards {
+    display: flex;
+    overflow: scroll;
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+    background-color: #ffffffb5;
+}
+
+.card h2 {
+    font-family: 'Lora', serif;
+    /* border: 1px solid #d7d4d4; */
+    padding: 7px 12px;
+    margin-bottom: 25px;
+    font-size: 21px;
+    background-color: #ffffffb5;
+}
+
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+.footer {
+    display: flex;
+}
+
+.foot1 {
+    background-color: #0d0d0d;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    overflow: scroll;
+}
+
+.foot1a {
+    flex: 1;
+    min-width: 90px;
+}
+
+.foot1a1 {
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
+    text-decoration: none;
+}
+
+.foot1a1:hover {
+    color: rgba(153, 142, 250, 0.911);
+    font-weight: bold;
+}
+
+.foot1b {
+    display: block;
+    padding: 12px 0px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    border-left: 1px solid #454d5e;
+    padding: 0 15px;
+    line-height: 2;
+    min-width: fit-content;
+}
+
+.foot1c {
+    display: block;
+    padding: 12px 0px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    padding: 0 15px;
+    line-height: 2;
+    min-width: fit-content;
+}
+
+.foot11 {
+    padding-top: 12px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 9px;
+}
+
+.foot2 {
+    background-color: rgb(139, 133, 133);
+    width: 100%;
+    height: 1px;
+}
+
+.foot3 {
+    background-color: #0d0d0d;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: smaller;
+    line-height: 3;
+    padding: 3px 0px;
+}

@@ -1,0 +1,45 @@
+@media screen and (max-width: 1000px) {
+    header {
+        height: 108px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .all {
+        justify-content: space-between;
+        margin: 10px auto;
+    }
+
+    .search1 {
+        justify-content: center;
+    }
+
+    .account a {
+        opacity: 0%;
+    }
+
+    .slider {
+        height: 23vw;
+    }
+
+    .card-item img {
+        width: 140px;
+    }
+
+    .card h2 {
+        margin-top: 10px;
+    }
+
+    nav ul li a:hover {
+        font-weight: bolder;
+        color: rgba(153, 142, 250, 0.911);
+    }
+
+    .foot1a1:hover {
+        color: rgba(153, 142, 250, 0.911);
+        font-weight: bold;
+    }
+
+}
