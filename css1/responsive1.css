@@ -37,6 +37,9 @@
         color: rgba(153, 142, 250, 0.911);
     }
 
+    .foot1{
+        overflow: scroll;
+    }
     .foot1a1:hover {
         color: rgba(153, 142, 250, 0.911);
         font-weight: bold;
