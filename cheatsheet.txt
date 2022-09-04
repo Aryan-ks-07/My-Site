@@ -16,5 +16,5 @@ git push origin master
 // now to add new file
 git status // to check status
 git add .
-git commit -m "new_file"
+git commit -m " Added new_file"
 git push origin master
